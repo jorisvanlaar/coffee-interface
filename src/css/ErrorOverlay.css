@@ -1,0 +1,22 @@
+.ErrorOverlay {
+    margin: 10px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 80px;
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.ErrorOverlayHidden {
+    z-index: -1;
+}
+
+.ErrorOverlayShow {
+    z-index: 100;
+}

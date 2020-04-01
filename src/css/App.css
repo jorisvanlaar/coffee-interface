@@ -1,0 +1,23 @@
+.Wrapper {
+  height: 800px;
+  width: 1280px;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.App {
+  text-align: center;
+  position: absolute;
+  top: 235px;
+  right: 323px;
+}
+
+.Status {
+  color: steelblue;
+  font-size: large;
+}
+
+
+
+
